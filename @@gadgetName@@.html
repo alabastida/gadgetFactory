@@ -1,0 +1,28 @@
+<div class="content" ng-controller="@@gadgetName@@Controller as vm">
+
+  <!-- Start div first view -->
+  <div ng-show="vm.ShowMe">
+    <p class="title">This text and the dashed border, which marks where your code will render, are styled from gadgets/@@gadgetName@@/@@gadgetName@@.css</p>
+    <p>
+      <center>
+      <button class="btn btn-default" ng-click="vm.ShowMe=!vm.ShowMe" role="button">Show view #2</button>
+    </center>
+    </p>
+    <p>Image: <img src="http://www.freeiconspng.com/uploads/house-from-premier-builders-in-carthage-mo-64836--home-builders-5.png" title="" alt="" border="0" /></p>
+
+    <p>The content for this gadget is from gadgets/@@gadgetName@@/@@gadgetName@@.html</p> 
+    <p>This <strong>data</strong> is from gadgets/@@gadgetName@@/@@gadgetName@@controller.js: <strong>{{vm.test3}}</strong></p>
+  </div>
+  <!-- end div first view -->
+
+  <!-- Start div Second view -->
+  <div ng-show="!vm.ShowMe">
+    <center>
+      <button class="btn btn-default" ng-click="vm.ShowMe=!vm.ShowMe" role="button">Show view #1</button>
+    </center>
+    <p> This is a second view for the gadget. It's not necessary or expected to have multiple views like this. The toggle view functionality is provided only as example code.</p>
+  </div>
+  <!-- end div Second view -->
+
+</div>
+<!-- end div controller -->

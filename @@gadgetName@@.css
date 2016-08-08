@@ -1,0 +1,8 @@
+.@@gadgetName@@ .title {
+  color: #f00;
+}
+.@@gadgetName@@ .content {
+  border: 1px dashed #666;
+  padding: 10px;
+  height: 800px;
+}
