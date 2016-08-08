@@ -3,7 +3,7 @@ Gadget Name:
 @@gadgetName@@
 
 Gadget Description:
-@@gadgetDescription@@
+<Please enter a description for your gadget>
 
 Author:
-@@gadgetAuthor@@
+<Please enter the author(s) name(s)>
